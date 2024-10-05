@@ -4,45 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <script src="index.js" defer></script>
+    <title>Portfólio</title>
 </head>
 <body>
     <header class="container_header">
         <div class="div_apre">
             <h1>Igor Ramon</h1>
-            <p>Sou Desenvolvedor full stack</p>
-            <ul>
-                <li><button> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2uxjgNAyiEfB7WiGBcSAc6aa-LYaEsrM70g&s" alt=""> </button></li>
-                <li><button> <img src="https://img.icons8.com/?size=512&id=44914&format=png" alt=""></button></li>
-                <li><button></button></li>
-                <li><button></button></li>
-            </ul>
+            <p>Desenvolvedor Full Stack</p>
+
         </div>
         <div class="div_nav">
             <nav>
                 <ul>
-                    <li><a href="">Projetos</a></li>
-                    <li><a href="">Contato</a></li>
-                    <li><a href="">Sobre</a></li>
+                    <li>
+                        <button><a href="/projetos.html" target="_blank">Apresentação</a></button>
+                    </li>
+                    <li>
+                        <button><a href="/projetos.html" target="_blank">Projetos</a></button>
+                    </li>
+                    <li>
+                        <button><a href="/contato.html" target="_blank">Contato</a></button>
+                    </li>
                 </ul>
             </nav>
             <img src="https://img.myloview.com.br/quadros/icone-do-programador-no-estilo-dos-desenhos-animados-isolado-no-fundo-branco-pessoas-de-diferentes-profissao-simbolo-stock-vector-illustration-700-81967651.jpg" alt="">
         </div>
     </header>
     <main>
-        <section class="container_projetos">
-            <h2>Projetos</h2>
-
-            <ul>
-                <li>
-                    <div class="div_card">
-                        <img src="https://diariodaeducacao.com.br/wp-content/uploads/2023/11/calculadora-online.webp" alt="">
-                        <p>Projeto Calculadora Online</p>
-                        <p>Desenvolvido em JavaScript, HTML e CSS</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
+        <article>
+            <p>Experiência com desenvolvimento de projetos full stack utilizando tecnologias como React, JavaScript, TypeScript, Python, Kotlin, HTML, CSS.</p>
+            <p>Conhecimentos em Nodejs, Express, Django, PostgreSQL, TypeORM.</p>
+            <p>Sempre utilizando metodologias ágeis como Scrum e conhecimento em Git/GitHub para versionamento de código.</p>
+        </article>
+        
+        <div class="container_table">
+            <table>
+                <tr id="tr_cab">
+                    <th>Habilidades</th>
+                    <th>Proficiência</th>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediário</td>
+                </tr>
+                <tr>
+                    <td>TypeScript</td>
+                    <td>Intermediário</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Intermediário</td>
+                </tr>
+                <tr>
+                    <td>Kotlin</td>
+                    <td>Intermediário</td>
+                </tr>
+            </table>
+        </div>
     </main>
+
+    <hr style="margin-top: 2rem;">
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://github.com/ramonriotinto" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2uxjgNAyiEfB7WiGBcSAc6aa-LYaEsrM70g&s" alt="icone github">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/igor-ramon-rio-tinto/" target="_blank">
+                    <img src="https://img.icons8.com/?size=512&id=44914&format=png" alt="icone linkedin">
+                </a>
+            </li>
+        </ul>
+    </footer>
+
 </body>
 </html>
